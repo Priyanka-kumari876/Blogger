@@ -1,0 +1,37 @@
+.author-detail{
+  margin: 0px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(120deg , white , rgb(136, 136, 166));
+}
+
+.author-profile{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.author-profile img{
+   border: 4px solid white;
+   border-radius: 100%;
+   height: 200px;
+   width: 200px;
+}
+.author-profile hr{
+   height:6px ;
+   background-color: black;
+   border-radius: 9px;
+
+}
+.author-profile h1{
+  color: rgb(15, 15, 62);
+}
+.blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 200px;
+
+}

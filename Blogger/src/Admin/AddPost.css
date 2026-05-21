@@ -1,0 +1,69 @@
+.heading{
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(237, 235, 235);
+}
+
+.add-blog{
+  background: linear-gradient(125deg, white , rgb(179, 179, 218) , white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}
+.inputs{
+  border: 4px solid white;
+  box-shadow: 0px 0px 4px gray;
+  width: 50%;
+  background-color: whitesmoke;
+  padding:20px 50px;
+}
+.inputfield{
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 7px 0px;
+}
+.inputfield input , .inputfield textarea{
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #c3c3c3;
+  outline: none;
+  color: #7b7b7b;
+  font-size: 18px;
+  height: 50px;
+  padding: 0px 20px;
+}
+.inputfield input:hover{
+  box-shadow: 0 0 4px rgb(97, 213, 242);
+}
+.inputfield textarea:hover{
+  box-shadow: 0 0 4px rgb(97, 213, 242);
+}
+.author{
+  display: flex;
+  gap: 40px;
+}
+.upload{
+  height: 200px;
+  width: 200px;
+  border-radius: 16px;
+}
+.selector{
+  border: 1px solid #c3c3c3;
+  border-radius: 9px;
+}
+.addblog-btn{
+ padding: 10px 50px;
+ font-size: 18px;
+ font-weight: 600;
+ border: none;
+ background-color: rgb(16, 16, 198);
+ color: white;
+ border-radius: 9px;
+}
+@media (max-width : 620px) {
+  .inputs{
+    width: 100%;
+  }
+  }

@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.hero-section {
+  position: relative;
+  height: 70vh; /* Sets the height to 70% of the viewport */
+  padding: 3rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Hero Content */
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Animations for Text */
+.animate-slide-in {
+  animation: slideIn 2s ease-in-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.animate-zoom-in {
+  animation: zoomInText 2s ease-in-out;
+}
+
+.animate-bounce-text {
+  animation: bounceText 3s infinite ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomInText {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceText {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Hero Buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-button {
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  animation: zoomIn 1s ease-in-out;
+}
+
+.hero-button:hover {
+  background-color: #005bb5;
+}
+
+/* Background Circles */
+.background-circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.circle.pink {
+  background-color: #f28b82;
+  width: 150px;
+  height: 150px;
+  top: 10%;
+  left: 15%;
+}
+
+.circle.yellow {
+  background-color: #fbbc04;
+  width: 200px;
+  height: 200px;
+  top: 30%;
+  right: 20%;
+}
+
+.circle.blue {
+  background-color: #aecbfa;
+  width: 180px;
+  height: 180px;
+  bottom: 20%;
+  left: 10%;
+}
+
+.circle.purple {
+  background-color: #d7aefb;
+  width: 120px;
+  height: 120px;
+  bottom: 10%;
+  right: 15%;
+}
+
+/* Animations for Background Circles */
+.animate-bounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 4s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-spin {
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-fade {
+  animation: fade 5s infinite alternate;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 0.8;
+  }
+}

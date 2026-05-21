@@ -1,0 +1,40 @@
+.myprofile{
+  margin: 0px;
+  background: linear-gradient(135deg   , rgb(170, 167, 167) , white , rgb(179, 175, 175)); 
+  padding: 30px 20px;
+  width: 100%;
+}
+.profile-info{
+  display: flex; 
+  flex-direction: column;
+  padding: 0px 20px;
+  
+}
+.profile-info img{
+  border-radius: 95px;
+  height: 230px;
+  width: 230px;
+}
+.profile-info h1{
+  font-weight: 600;
+  color: rgb(12, 12, 105);
+  padding: 8px 0px 20px 10px;
+}
+.profile-info p{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(163, 156, 156);
+}
+.post{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  width: 70%; 
+  margin: 0 auto;
+
+}
+
+

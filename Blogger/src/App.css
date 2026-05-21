@@ -1,0 +1,29 @@
+.blog{
+  margin: 22px;
+  display: flex;
+}
+
+.card:hover{
+  box-shadow:-7px 7px 2px black !important;
+  transition: ease-out 0.5s all;
+  /* transform: scale(1.03); */
+  transform: translate(5px , -6px);
+
+}
+
+ .selectbtn:active{
+  border-bottom: 4px solid black;
+  font-weight: bold;
+  /* background-color: ; */
+ }
+
+ .layoutHeader{
+  margin-bottom: 0px !important;
+  background-color: #f8f9fa !important;
+
+
+ }
+ 
+.home{
+  background: linear-gradient(125deg, white  , rgb(174, 174, 212));
+}

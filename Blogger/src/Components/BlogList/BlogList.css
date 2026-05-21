@@ -1,0 +1,43 @@
+.Selected{
+  margin: 6px;
+  height: 38px;
+  padding: 0px 13px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+ 
+  /* color: rgb(231, 226, 226); */
+ }
+ 
+ .unselectbtn{
+   height: 38px;
+   padding: 0px  197px ;
+   background-color: white;
+   color: black;
+   font-weight: 600;
+   
+  }
+  .bloglist{
+    background: linear-gradient(135deg, white  , rgb(220, 220, 227) ,white);
+    padding: 30px 10px;
+  }
+  .btns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  .btns button{
+    margin: 6px 8px;
+    border: none;
+    padding: 0px 16px;
+    
+  }
+
+  .bloglist-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }

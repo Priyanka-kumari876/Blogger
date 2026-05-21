@@ -1,0 +1,33 @@
+.delete-blogs{
+  margin: 0px;
+  background: linear-gradient(135deg   , rgb(170, 167, 167) , white , rgb(179, 175, 175)); 
+  padding: 30px 20px;
+  width: 100%;
+ ;
+}
+.heading p{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(195, 194, 194);
+}
+.blogs{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.blog-index{
+  display: grid;
+  flex: 1;
+  grid-template-columns: 2fr 7fr 1.5fr 0.5fr 0.5fr ;
+  gap: 25px;
+  font-size: 20px;
+  padding: 20px 10px 0px 5px;
+  color: rgb(37, 32, 32);
+  color:#f0ebeb ;
+
+}

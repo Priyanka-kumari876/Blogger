@@ -1,0 +1,24 @@
+.delete-blog{
+  display: flex;
+}
+.blog-details{
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr;
+  gap: 25px;
+  padding: 20px 15px 0px 15px;
+  margin-bottom: 9px;
+
+
+
+}
+.blog-details h5{
+  color: rgb(69, 64, 64);
+}
+ .blog-details p{
+  font-weight: 600;
+  color: rgb(125, 114, 114);
+ }
+ /* .blog-details button{
+  border: none;
+  background: none;
+ } */

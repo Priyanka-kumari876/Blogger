@@ -1,0 +1,87 @@
+.page{
+  padding: 34px  0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+}
+.image{
+  height: 600px;
+  width: 900px;
+  border: 6px solid white;
+  margin: 0 auto;
+}
+.title{
+    box-shadow: 0px -5pc 15px #f7f0f0;
+  background-color: #f7f0f0;
+  text-align: center;
+  height: 80vh;
+}
+.title h3{
+  margin: 12px 0px 32px 0px;
+
+}
+
+.title p{
+  font-weight: bold;
+  margin: 6px 0px 12px  0px;
+  padding-bottom: 34px;
+  font-size: 20px;
+}
+.content{
+  background: linear-gradient(135deg , white , #e6dede);
+  margin-top: 40vh;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px  0px;
+}
+.description h2{
+  font-size: 24px;
+  font-weight: 700;
+  color: grey;
+ 
+}
+.description h1{
+  font-size: 27px;
+  font-weight: bold;
+  padding:  10px 0px;
+  text-align: left;
+  margin: 5% 49% 0 0;
+  
+
+}
+.description p{
+  font-size: 20px;
+  width: 60%;
+  align-items: center;
+}
+ .blogfooter{
+  display: flex;
+  justify-content: space-around;
+  /* margin: 0px 300px 0px 100px; */
+  padding-bottom: 34px;
+ }
+ .footer-list{
+  display: inline-block;
+  width: 460px;
+  margin-left: 90px;
+
+ }
+
+.footer-list li{
+  margin: 2px 6px;
+}
+.view{
+  height: 34px;
+  padding: 0px 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 9px;
+  background-color: rgb(144, 130, 130);
+  justify-content: center;
+  font-weight: bold;
+  
+}
